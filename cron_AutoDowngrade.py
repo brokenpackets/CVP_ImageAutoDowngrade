@@ -7,7 +7,7 @@ import json
 username = 'admin'
 password = 'Arista'
 server1 = 'https://192.168.255.50'
-builder_name = 'ImageDowngrade'
+builder_name = 'builder_AutoDowngrade'
 container_key = 'undefined_container'
 downgrade_match = '4.22.1FX-CLI'
 
