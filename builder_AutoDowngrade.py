@@ -25,9 +25,6 @@ rest_getImageBundles = '/cvpservice/image/getImageBundles.do?startIndex=0&endInd
 rest_getAssignedBundle = '/cvpservice/image/getImageBundleAppliedContainers.do?startIndex=0&endIndex=0&imageName='
 #### Script Logic
 
-def get_bundle_swi(bundleKey):
-    pass
-
 def get_undefined_image():
     imageNames = {}
     client = RestClient(cvpserver+rest_getImageBundles,'GET')
