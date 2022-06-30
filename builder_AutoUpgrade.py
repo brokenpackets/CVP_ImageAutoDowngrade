@@ -77,7 +77,7 @@ def main():
                       pass
             except:
                 pass
-          except:
+        except:
             pass
     else:
         pass
